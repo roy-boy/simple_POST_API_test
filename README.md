@@ -14,7 +14,7 @@ How to setup your test exeution environment:
     on Linux: run '$sudo python pip install requests' then run upgrade package '$sudo python pip install --upgrade requests'
 
 How execute test:
-1. first to check the test input data csv file in API_test/test_input/ check which test case is set to 'Y' to be executed, each row is a test scenario with the payload to be posted
+1. first unzip the package to your local drive, then check the test input data csv file in API_test/test_input/ check which test case is set to 'Y' to be executed, each row is a test scenario with the payload to be posted
 2. second open \API_test\test_config.py via text editor to confirm the POST URL is pointing to the target endpoint
 3. then in your CMD console go to \API_test\, run 'python run_api_test.py' 
 4. after test execute done, there is console raw out put also the test log file for debugging
