@@ -1,5 +1,5 @@
 # simple_POST_API_test
-a data driven test automation harness writen in Python to verify http endpoint
+A data driven test automation harness writen in Python to verify http endpoint, it reads test data from CSV file and perform HTTP post request then asserts the response against predefined expected HTTP response.
 
 project structure:
 API_test/ project directory contains Python code for execution and sub-dir, run_api_test.py is the program entry script to execute test 
