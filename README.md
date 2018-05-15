@@ -4,7 +4,9 @@ A data driven test automation harness writen in Python to verify http endpoint, 
 project structure:
 
 API_test/ project directory contains Python code for execution and sub-dir, run_api_test.py is the program entry script to execute test 
+
 API_test/test_input/ – test input data required for test execution, test case CSV files lives here
+
 API_test/test_output/ – test output directory contains test_result_ouput.csv and test harness log file
 
 How to setup your test exeution environment:
