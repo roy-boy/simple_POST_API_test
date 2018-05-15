@@ -8,7 +8,7 @@ API_test/test_output/ – test output directory contains test_result_ouput.csv a
 
 How to setup your test exeution environment:
 1. if on Windows, install Python version 2.7.6+ from https://www.python.org/downloads/windows/
-2. if on Linux, it should have Python insatlled with OS, just check from console '$python --version'. If not installed try 'sudo apt-get install python2'
+2. if on Linux, it should have Python insatlled with OS, just check from console '$python --version'. If not installed try 'sudo apt-get install python2.7'
 3. once Python is installed on your OS, insall HTTP library dependency 'requests' for POST HTTP request
     on Windows CMD: run 'python pip install requests' then run upgrade package 'python pip install --upgrade requests'
     on Linux: run '$sudo python pip install requests' then run upgrade package '$sudo python pip install --upgrade requests'
